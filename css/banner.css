@@ -2,13 +2,12 @@
     background-color: rgba(0, 0, 0, 0.6);
     width           : auto;
     height          : 80px;
-    display: flex;
-    text-align: center !important;
-    justify-content: center;
+    display         : flex;
+    text-align      : center !important;
+    justify-content : center;
 }
 
 .banner>#texto-banner {
-    color      : white;
     display    : flex;
     text-align : center;
     align-items: center;
