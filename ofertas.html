@@ -20,7 +20,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand titulos" href="#">RADAR MODA</a>
+            <a class="navbar-brand" href="#">RADAR MODA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -43,6 +43,7 @@
                             <li><a class="dropdown-item text-muted" href="scrunchies.html">Scrunchies</a></li>
                             <li><a class="dropdown-item text-muted" href="banderines.html">Banderines</a></li>
                             <li><a href="ofertas.html" class="dropdown-item text-muted">En oferta</a></li>
+
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -53,50 +54,83 @@
                         <a class="nav-link active" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
                     </li>
                 </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+                </ul>
             </div>
         </div>
     </nav>
 
     <main>
         <div class="separador"></div>
-        <section class="container-fluid">
-            <div class="row justify-content-center" id="banner">
-                <div class="col-md-10 align-self-center">
-                    <blockquote class="blockquote">
-                        <p class="text-muted fw-lighter">Accesorios con conciencia ecológica</p>
-                    </blockquote>
+        <section id="banner">
+        </section>
+
+        <div class="espaciador"></div>
+
+        <section class="container-fluid align-items-center">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-3">
+                    <img src="img/productos/Scrunchie1.png" alt="scrunchies grandes blancos" class="img-fluid rounded">
                 </div>
+                <div class="col-md-5 text-white" style="background-color: rgba(0,0,0,0.4); padding: 15px;">
+                    <p class="fw-bold">Scrunchies blancos con cola</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, fugiat? Dignissimos impedit
+                        dicta id, non maiores beatae similique rem nihil minus eius unde ipsa fugiat voluptates libero.
+                        Dolor, doloremque eum.</p>
+                    <p class="text-end">$9999.-</p>
+                </div>
+
+                <div class="col-md-1"></div>
+
+            </div>
+            <div class="espaciador"></div>
+            <div class="row align-items-center">
+
+                <div class="col-md-1"></div>
+                <div class="col-md-5 text-white" style="background-color: rgba(0,0,0,0.4); padding: 15px;">
+                    <p class="fw-bold">Estuche</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, fugiat? Dignissimos impedit
+                        dicta id, non maiores beatae similique rem nihil minus eius unde ipsa fugiat voluptates libero.
+                        Dolor, doloremque eum.</p>
+                    <p class="text-end">$9999.-</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/productos/estuche1.JPG" alt="estuche de tela" class="img-fluid rounded">
+                </div>
+            </div>
+
+            <div class="col-md-1"></div>
+
+            </div>
+            <div class="espaciador"></div>
+            <div class="row align-items-center">
+
+                <div class="col-md-1"></div>
+
+                <div class="col-md-5">
+                    <img src="img/productos/bolsita.JPG" alt="bolsa ecológica" class="img-fluid rounded">
+                </div>
+                <div class="col-md-5 text-white" style="background-color: rgba(0,0,0,0.4); padding: 15px;">
+                    <p class="fw-bold">Bolsa ecológica</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, fugiat? Dignissimos impedit
+                        dicta id, non maiores beatae similique rem nihil minus eius unde ipsa fugiat voluptates libero.
+                        Dolor, doloremque eum.</p>
+                    <p class="text-end">$9999.-</p>
+                </div>
+
+                <div class="col-md-1"></div>
+
             </div>
 
         </section>
 
-        <section id="recepcion">
-            <div class="container-fluid">
-                <div class="espaciador"></div>
-                <div class="row align-items-center">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-5 align-middle" id="fondo-izq">
-                        <img src="img/LogoRadarRedondoColor2.png" alt="Logo RADAR" class="img-fluid">
-                    </div>
+        <div class="espaciador"></div>
 
-                    <div class="col-md-5" id="fondo-der">
-                        <h1>RADAR</h1>
-                        <form class="form-inline">
-                            <input class="form-control mr-sm-2" type="search" placeholder="¿Qué quieres encontrar?"
-                                aria-label="Search">
-                            <button class="btn btn-secondary btn-lg" type="submit" id="btnBuscar" style="margin-top: 10px;">Buscar</button>
-                        </form>
-                        <p class="tex-info fs-5">Aquí puedes ingresar el producto que estás buscando. <br> ¡Lo podrías
-                            encontrar
-                            más rápido! <br></p>
-                        <p class="fs-7"> También puedes ir directamente al <a href="catalogo.html">Catálogo</a></p>
-                    </div>
-                    <div class="col-md-1"></div>
-
-                </div>
-                <div class="espaciador"></div>
-            </div>
-        </section>
         <section class="container-fluid align-items-center" id="banner">
             <div class="contenedor">
                 <p class="text-muted fst-italic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
@@ -108,6 +142,7 @@
             </div>
         </section>
     </main>
+
     <div class="separador"></div>
     <footer class="bg-dark">
         <p class="mx-auto text-muted" style="width:150px">DPW desarrollo web</p>
